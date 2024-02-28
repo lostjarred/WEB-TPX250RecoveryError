@@ -14,19 +14,25 @@
                 margin: 1%;
             }
             .headerborder {
-                border-top: 2px dashed black; 
-                border-bottom: 2px dashed black;
+                border-top: 2px dashed #FFB000; 
+                border-bottom: 2px dashed #FFB000;
             }
             #maindiv {
-                border: 2px solid black;
-                border-top: 2px dashed;
-                border-bottom: 2px dashed;
+                border: 2px solid #FFB000;
+                border-top: 2px dashed #FFB000;
+                border-bottom: 2px dashed #FFB000;
             }
             img {
-                border: 2px solid black; 
+                border: 2px solid #FFB000; 
                 width: 100%; 
                 height: 100%; 
                 object-fit: contain;
+            }
+            h1, h2, h3, h4, p, a, li {
+                color: #FFCC00;
+            }
+            body {
+                background-color: #282828;
             }
         </style>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -55,7 +61,7 @@
                 </div>
                 <p>From: <a href="https://www.reddit.com/r/thinkpad/comments/153xm1f/thinkpad_x250_recovery_error_possible_fixes/?rdt=52779">https://www.reddit.com/r/thinkpad/comments/153xm1f/thinkpad_x250_recovery_error_possible_fixes/?rdt=52779</a></p>
                 <p>
-                    I know this problem. It is quite frankly really stupid: If these are the "create recovery media"-discs (created using the software from the preinstalled OS) and not the full set from lenovo, they can not restore to a blank hard drive where the recovery partition is not already intact... The hard drive needs to be "tagged", to allow the restore utility to work.<br>
+                    I know this problem. It is quite frankly really stupid: If these are the "create recovery media"-discs (created using the software from the preinstalled OS) and not the full set from lenovo, they can not restore to a blank hard drive where the recovery partition is not already intact...<br> The hard drive needs to be "tagged", to allow the restore utility to work.<br>
 
                     First things first: For Windows 8.1 your BIOS should have CSM off, UEFI on and secure boot enabled.<br>
 
